@@ -17,7 +17,7 @@ namespace Oxide.Plugins
         [PluginReference]
         Plugin AirFuel, GetToDaChoppa, VehicleVendorOptions;
 
-        private const string _vanillaDefaultsUri = "https://raw.githubusercontent.com/AnExiledDev/StackSizeController/master/vanilla-defaults.json";
+        private const string _vanillaDefaultsUri = "https://github.com/FFalken/StackSizeController/raw/master/vanilla-defaults.json";
 
         private Configuration _config;
         private Dictionary<string, int> _vanillaDefaults;
